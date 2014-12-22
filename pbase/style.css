@@ -69,9 +69,9 @@ A:active { color : #d5ae83; }
 
 .caption
 {
-font-size : 9pt;
-color : #bbbbbb;
-font-style : italic;
+	max-width: 805px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 TD
@@ -102,14 +102,14 @@ BODY TABLE A IMG { display: inline; }
 HR { position: relative; }
 
 div.galleryheader {
-	max-width: 952px;
+	max-width: 920px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 div.gallery_comments {
 	text-align: center;
-	max-width: 952px;
+	max-width: 920px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -120,7 +120,7 @@ div.gallery_comments td {
 
 div.gallery_hitcounts {
 	text-align: center;
-	max-width: 952px;
+	max-width: 920px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -215,13 +215,6 @@ A:hover  { color: #00FF00; text-decoration: underline; }
 A:visited { color: #FFCC66; }
 A:active { color : #d5ae83; }
 
-.caption
-{
-font-size : 9pt;
-color : #bbbbbb;
-font-style : italic;
-}
-
 TD
 {
 background-color: none;
@@ -250,14 +243,14 @@ BODY TABLE A IMG { display: inline; }
 HR { position: relative; }
 
 div.galleryheader {
-	max-width: 952px;
+	max-width: 920px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 div.gallery_comments {
 	text-align: center;
-	max-width: 952px;
+	max-width: 920px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -266,9 +259,33 @@ div.gallery_comments td {
 	text-align: center;
 }
 
+div.gallery_comments td.from {
+	background-color: #000000;
+	text-align: left;
+	padding-left: 5px;
+}
+
+div.gallery_comments td.commands {
+	background-color: #000000;
+	text-align: right;
+	padding-right: 5px;
+}
+
+div.gallery_comments td.date {
+	background-color: #000000;
+	text-align: right;
+	padding-right: 5px;
+}
+
+div.gallery_comments td.message_body {
+	background-color: #171717;
+	text-align: left;
+	padding-left: 5px;
+}
+
 div.gallery_hitcounts, div.image_hitcounts {
 	text-align: center;
-	max-width: 952px;
+	max-width: 920px;
 	margin-left: auto;
 	margin-right: auto;
 }
